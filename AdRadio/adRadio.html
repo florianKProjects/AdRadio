@@ -1,0 +1,34 @@
+<html lang="en-US">
+<link rel="stylesheet" href="adRadio.css">
+  <body>
+    <div id="MainBox">
+            <div id="midelBox">
+                
+            <h2 id="staionName"></h2>
+
+        <div id="player">
+            <video id="video" controls></video>
+        </div>
+        <section id='mainSection'>
+            <div clss='disvoer'><h2>Discover</h2></div>
+            <div id='statiosList'></div>
+                
+        </section>
+        </div>
+    </div>
+        <p>
+            <button type="button" class="btn btn-xs btn-warning" onclick="createfMP4('audio');">Create audio-fmp4</button>
+            <button type="button" class="btn btn-xs btn-warning" onclick="createfMP4('video')">Create video-fmp4</button>
+        </p>
+
+<!---script ------------------------------------>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src=procces.js></script>
+
+    </body>
+</html>
+https://docs.audd.io/
+https://www.videohelp.com/software/ffmpeg
+https://github.com/video-dev/hls.js/issues/1322
+https://video-dev.github.io/hls.js/demo/
